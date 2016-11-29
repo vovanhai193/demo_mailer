@@ -1,0 +1,19 @@
+current directory: /home/framgia/demo/demomailer/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+/home/framgia/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20161129-26233-sac3r7.rb extconf.rb
+creating Makefile
+
+current directory: /home/framgia/demo/demomailer/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/framgia/demo/demomailer/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR="
+compiling crypt_blowfish.c
+compiling crypt.c
+compiling bcrypt_ext.c
+compiling wrapper.c
+compiling crypt_gensalt.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/framgia/demo/demomailer/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20161129-26233-1wcvj1o
